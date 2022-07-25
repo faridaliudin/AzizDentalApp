@@ -3,6 +3,7 @@ package com.example.azizdentalapp;
 public class ModelPasien {
     private String nama;
     private String umur;
+    private String telepon;
     private String keluhan;
     private String key;
 
@@ -10,9 +11,10 @@ public class ModelPasien {
 
     }
 
-    public ModelPasien(String nama, String umur, String keluhan) {
+    public ModelPasien(String nama, String umur, String telepon, String keluhan) {
         this.nama = nama;
         this.umur = umur;
+        this.telepon = telepon;
         this.keluhan = keluhan;
     }
 
@@ -30,6 +32,14 @@ public class ModelPasien {
 
     public void setUmur(String umur) {
         this.umur = umur;
+    }
+
+    public String getTelepon() {
+        return telepon;
+    }
+
+    public void setTelepon(String telepon) {
+        this.telepon = telepon;
     }
 
     public String getKeluhan() {

@@ -47,6 +47,7 @@ public class AdapterPasien extends RecyclerView.Adapter<AdapterPasien.MyViewHold
         final ModelPasien data = mList.get(position);
         holder.tv_nama.setText("Nama : " + data.getNama());
         holder.tv_umur.setText("Umur : " + data.getUmur());
+        holder.tv_telepon.setText("Telepon : " + data.getTelepon());
         holder.tv_keluhan.setText("Keluhan : " + data.getKeluhan());
         holder.btn_hapus.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +56,7 @@ public class AdapterPasien extends RecyclerView.Adapter<AdapterPasien.MyViewHold
                 builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
-                        database.child("Pasien").child(data.getKey()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
+                        database.child("pasien").child(data.getKey()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
                                 Toast.makeText(activity, "Data berhasil dihapus", Toast.LENGTH_SHORT).show();
@@ -72,7 +73,7 @@ public class AdapterPasien extends RecyclerView.Adapter<AdapterPasien.MyViewHold
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                     }
-                }).setMessage("Apakah yakin ingin menghapus ?" + data.getNama());
+                }).setMessage("Apakah yakin ingin menghapus ? " + data.getNama());
                 builder.show();
             }
         });
@@ -84,6 +85,7 @@ public class AdapterPasien extends RecyclerView.Adapter<AdapterPasien.MyViewHold
                 DialogForm dialog = new DialogForm(
                         data.getNama(),
                         data.getUmur(),
+                        data.getTelepon(),
                         data.getKeluhan(),
                         data.getKey(),
                         "Ubah"
@@ -100,13 +102,14 @@ public class AdapterPasien extends RecyclerView.Adapter<AdapterPasien.MyViewHold
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView tv_nama, tv_umur, tv_keluhan;
+        TextView tv_nama, tv_umur, tv_telepon, tv_keluhan;
         ImageView btn_hapus;
         CardView card_hasil;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             tv_nama = itemView.findViewById(R.id.tv_nama);
             tv_umur = itemView.findViewById(R.id.tv_umur);
+            tv_telepon = itemView.findViewById(R.id.tv_telepon);
             tv_keluhan = itemView.findViewById(R.id.tv_keluhan);
             btn_hapus = itemView.findViewById(R.id.hapus);
             card_hasil = itemView.findViewById(R.id.card_hasil);

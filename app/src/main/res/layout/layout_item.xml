@@ -38,6 +38,13 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"/>
             <TextView
+                android:id="@+id/tv_telepon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="telepon"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
                 android:id="@+id/tv_keluhan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

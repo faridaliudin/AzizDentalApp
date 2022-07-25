@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">AzizDentalApp</string>
 
-    <string name="scaling_title">Spicy Pumpkin Latte</string>
-    <string name="scaling_desc">Many coffee lovers in the fall enjoy spicy pumpkin latte, but if you want to save or make this drink out of season, you can easily make it at home. Drink can be made on the stove or in the microwave.</string>
+    <string name="scaling_title">Scaling</string>
+    <string name="scaling_desc">Scaling gigi adalah prosedur non-operasi yang dilakukan untuk membersihkan dan menghilangkan plak dan karang (tartar) pada gigi. Prosedur ini merupakan salah satu prosedur perawatan gigi yang paling umum dilakukan. Plak adalah lapisan tipis berwarna kuning atau putih yang menempel pada gigi.</string>
 
-    <string name="brightening_title">Indian Coffee</string>
-    <string name="brightening_desc">Indian cuisine is famous for its abundance of spices and spices. Coffee drink, popular in this country, is no exception.</string>
+    <string name="edondontik_title">Edondontik</string>
+    <string name="edondontik_desc">Perawatan saluran akar, juga dikenal sebagai endodontik, biasanya dilakukan untuk menyelamatkan gigi ketika saraf dan pembuluh darah di bagian tengah gigi, yang membentuk pulpa gigi, mati, mengakibatkan gigi menjadi terinfeksi. Infeksi ini umumnya disebabkan oleh pembusukan gigi, baik karena fraktur gigi, atau sepsis di bawah tambalan.</string>
+
+    <string name="odontektomi_title">Odontektomi</string>
+    <string name="odontektomi_desc">Odontektomi merupakan operasi pencabutan gigi bungsu impaksi yang terletak di geraham ketiga, yang biasanya muncul antara usia 17 dan 25 tahun. Operasi ini termasuk prosedur rawat jalan yang biasanya dilakukan oleh dokter gigi ahli bedah mulut.</string>
 </resources>
