@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AzizDentalApp</string>
+
+    <string name="scaling_title">Spicy Pumpkin Latte</string>
+    <string name="scaling_desc">Many coffee lovers in the fall enjoy spicy pumpkin latte, but if you want to save or make this drink out of season, you can easily make it at home. Drink can be made on the stove or in the microwave.</string>
+
+    <string name="brightening_title">Indian Coffee</string>
+    <string name="brightening_desc">Indian cuisine is famous for its abundance of spices and spices. Coffee drink, popular in this country, is no exception.</string>
+</resources>

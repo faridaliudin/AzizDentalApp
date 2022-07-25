@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1016000560285",
+    "firebase_url": "https://azizdental-f4f1d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "azizdental-f4f1d",
+    "storage_bucket": "azizdental-f4f1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016000560285:android:6538e8f50ae5ad891e2874",
+        "android_client_info": {
+          "package_name": "com.example.azizdentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016000560285-psb81kcnhan4i13p9t5c1g4odno1esj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvN_uycFVX_GOXgwE0T2lVYANfBDp-gWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016000560285-psb81kcnhan4i13p9t5c1g4odno1esj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
