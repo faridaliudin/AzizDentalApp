@@ -9,4 +9,6 @@
 
     <string name="odontektomi_title">Odontektomi</string>
     <string name="odontektomi_desc">Odontektomi merupakan operasi pencabutan gigi bungsu impaksi yang terletak di geraham ketiga, yang biasanya muncul antara usia 17 dan 25 tahun. Operasi ini termasuk prosedur rawat jalan yang biasanya dilakukan oleh dokter gigi ahli bedah mulut.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

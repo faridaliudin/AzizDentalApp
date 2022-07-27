@@ -6,8 +6,10 @@
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/ic_add.xml" value="0.240625" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/ic_contact.xml" value="0.240625" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/ic_delete.xml" value="0.240625" />
+        <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/info.xml" value="0.12604166666666666" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/language.xml" value="0.240625" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/drawable/splash_bg.xml" value="0.240625" />
+        <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_about.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_add.xml" value="0.33" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_blog.xml" value="0.15307971014492755" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
@@ -15,8 +17,10 @@
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/expandable_item.xml" value="0.25" />
+        <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/fragment_settings.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/item.xml" value="0.15307971014492755" />
         <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/layout/layout_item.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/farid/AndroidStudioProjects/AzizDentalApp/app/src/main/res/xml/preferences.xml" value="0.33" />
       </map>
     </option>
   </component>

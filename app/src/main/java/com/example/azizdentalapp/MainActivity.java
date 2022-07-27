@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public CardView cardBlog, cardAdd;
+    public CardView cardBlog, cardAdd, cardLogOut, cardAbout;
     FirebaseAuth mAuth;
 
     @Override
@@ -24,9 +24,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         cardBlog = (CardView) findViewById(R.id.cardBlog);
         cardAdd = (CardView) findViewById(R.id.cardAdd);
+        cardLogOut = (CardView) findViewById(R.id.cardLogOut);
+        cardAbout = (CardView) findViewById(R.id.cardAbout);
 
         cardBlog.setOnClickListener(this);
         cardAdd.setOnClickListener(this);
+        cardLogOut.setOnClickListener(this);
+        cardAbout.setOnClickListener(this);
     }
 
 //    @Override
@@ -50,6 +54,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.cardAdd:
                 i = new Intent(this, AddActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.cardLogOut:
+                i = new Intent(this, LoginActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.cardAbout:
+                i = new Intent(this, AboutActivity.class);
                 startActivity(i);
                 break;
         }
